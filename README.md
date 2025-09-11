@@ -10,6 +10,11 @@
 
 ### Membros do Grupo
 
-* Daniel Pereira Rodrigues de Lima
+Augusto de Barros Almeida 
+Daniel Pereira Rodrigues de Lima
+Gabriel Mesquita
+Hiago Gabriel
+Naua izidorio 
+
 
 ---

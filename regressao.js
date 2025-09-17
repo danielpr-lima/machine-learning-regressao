@@ -70,9 +70,9 @@ function regressaoLinear(x, y) {
     };
 }
  
-const caminhoDoArquivo = './exercicio_perda_peso.xlsx'; 
-const colunaX = 'Horas_Exercicio_Semana';
-const colunaY = 'Perda_Peso_Kg';
+const caminhoDoArquivo = './analise_peso_inicial_final.xlsx'; 
+const colunaX = 'Peso Inicial (kg)';
+const colunaY = 'Peso Final (kg)';
  
 const { x, y } = lerDadosExcel(caminhoDoArquivo, colunaX, colunaY);
  
@@ -86,9 +86,9 @@ if (x.length > 0 && y.length > 0) {
     console.log(`Dados carregados do arquivo: ${caminhoDoArquivo}`);
     console.log(`Total de registros: ${x.length}`);
     console.log("Equação da reta:", resultado.equacao);
-    console.log("Coeficiente angular (a):", resultado.a);
-    console.log("Coeficiente linear (b):", resultado.b);
-    console.log("Coeficiente de Determinação (R²):", resultado.r2);
+    console.log("Coeficiente angular (a):", resultado.a.toFixed(4));
+    console.log("Coeficiente linear (b):", resultado.b.toFixed(4));
+    console.log("Coeficiente de Determinação (R²):", resultado.r2.toFixed(4));
 } else {
     console.log("A análise não pôde ser executada pois os dados não foram carregados.");
 }

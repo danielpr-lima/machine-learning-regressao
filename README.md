@@ -22,4 +22,4 @@
 
 ### Descrição
 
-O nosso projeto tem como intuito fazer uma análise da relação da perda de peso. Cada linha do nosso dataset representa uma a perda de peso de uma pessoa em uma semana de exercicio.
+O nosso projeto tem como intuito fazer uma análise da relação da perda de peso. Cada linha do nosso dataset representa a perda de peso de uma pessoa em uma semana de exercicio.
